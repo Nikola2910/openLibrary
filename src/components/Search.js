@@ -25,7 +25,7 @@ export class Search extends Component {
 
     return (
       <div className="row ">
-        <div className="col xl2 offset-xl5 l4 offset-l4 m6 offset-3 s10 offset-s1">
+        <div className="col xl2 offset-xl5 l4 offset-l4 m6 offset-m3 s10 offset-s1">
           <form className="center" onSubmit={this.handleSubmit}>
             <div className="input-field ">
               <input

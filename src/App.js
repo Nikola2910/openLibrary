@@ -23,6 +23,11 @@ class App extends Component {
     bookFromList: {},
   };
 
+  componentDidMount() {
+    const id = `/${window.location.pathname.slice(1)}`;
+    this.getBookData(id, this.state.bookFromList);
+  }
+
   searchByQuery = (query) => {
     this.setState({
       loading: true,
