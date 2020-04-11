@@ -1,4 +1,5 @@
 import React from "react";
+import "./Book.css";
 
 function Book({ singleBookData, bookFromList }) {
   console.log(singleBookData, bookFromList);
@@ -7,7 +8,9 @@ function Book({ singleBookData, bookFromList }) {
       <div className="row">
         <div className="col l8">
           <h1 className="title">{singleBookData.title}</h1>
-          <h3>By: {bookFromList.author_name}</h3>
+          <h3 className="author">
+            By: <span className="red-text">{bookFromList.author_name}</span>
+          </h3>
           <span>About the Book</span>
           <div>
             {singleBookData.description && (
@@ -90,12 +93,12 @@ function Book({ singleBookData, bookFromList }) {
             )}
           </div>
         </div>
-        <div className="col offset-l1 l3">
-          <img
-            src={`http://covers.openlibrary.org/b/id/${bookFromList.cover_i}-L.jpg`}
-            alt=""
-          />
-        </div>
+
+        <img
+          className="col offset-l1 l3"
+          src={`http://covers.openlibrary.org/b/id/${bookFromList.cover_i}-L.jpg`}
+          alt=""
+        />
       </div>
     </div>
   );

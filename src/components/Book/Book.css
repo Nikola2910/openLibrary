@@ -1,0 +1,13 @@
+img.singleCover {
+  width: 100%;
+}
+
+h1.title {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+h3.author {
+  font-size: 22px;
+  font-weight: bold;
+}
