@@ -1,0 +1,35 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.blue-background {
+  background-color: #08d9d6;
+}
+
+.blue-text {
+  color: #08d9d6;
+}
+
+.pink-text {
+  color: #ff2e63;
+}
+
+.pink-background {
+  background-color: #ff2e63;
+}
+
+.light-background {
+  background-color: #eaeaea;
+}
+
+.light-text {
+  color: #eaeaea;
+}
+
+.dark-text {
+  color: #252a34;
+}
+
+.dark-background {
+  background-color: #252a34;
+}

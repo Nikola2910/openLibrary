@@ -1,0 +1,35 @@
+h5.title {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+p.author {
+  font-size: 16px;
+}
+
+span.editions {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+div.card-fab {
+  position: relative;
+  z-index: 1;
+}
+
+div.card {
+  overflow: hidden;
+}
+
+.card:hover {
+  background-color: #26a69a;
+  transition: 0.4s;
+  color: #fff;
+  transform: scale(1.05);
+  cursor: default;
+}
+
+img.loader {
+  width: 100%;
+  max-width: 480px;
+}
