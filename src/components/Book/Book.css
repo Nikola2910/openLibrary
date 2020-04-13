@@ -32,3 +32,16 @@ h6.links span {
   font-size: 16px;
   font-weight: normal;
 }
+
+p.first-sentence {
+  font-size: 20px;
+}
+
+span.edition-title {
+  font-weight: bold;
+  font-size: 16px;
+}
+p.edition-info {
+  font-size: 14px;
+  margin-bottom: 0;
+}

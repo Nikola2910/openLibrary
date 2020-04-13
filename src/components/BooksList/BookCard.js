@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import { ApiUrl } from "../../Api/ApiUrl";
+
 function BookCard({ booksData, getBookData }) {
   return (
     <div className="row">
@@ -15,10 +17,7 @@ function BookCard({ booksData, getBookData }) {
             >
               {" "}
               <div className="card-image">
-                <img
-                  src={`http://covers.openlibrary.org/b/id/${book.cover_i}-M.jpg`}
-                  alt="book"
-                />
+                <img src={ApiUrl.bookCoverMedium(book.cover_i)} alt="book" />
               </div>
               <div className="card-fab">
                 <Link
